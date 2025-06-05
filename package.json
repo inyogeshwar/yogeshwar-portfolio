@@ -1,0 +1,34 @@
+{
+  "name": "yogeshwar-portfolio",
+  "version": "1.0.0",
+  "description": "Modern portfolio website for Yogeshwar Kumar - Content Creator, Web Designer, Developer, Marketing Enthusiast, AI Explorer, and App Developer",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=index.html",
+    "build": "echo 'Build completed'",
+    "dev": "live-server --port=3000 --open=index.html --watch=css,js",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "web-design",
+    "content-creator",
+    "developer",
+    "responsive",
+    "modern",
+    "minimal"
+  ],
+  "author": "Yogeshwar Kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yogeshwarkumar/portfolio.git"
+  },
+  "homepage": "https://yogeshwarkumar.github.io/portfolio",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
