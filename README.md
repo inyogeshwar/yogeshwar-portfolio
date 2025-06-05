@@ -151,17 +151,7 @@ The contact form is now fully functional using EmailJS integration. The form wil
 - **Error Handling**: Graceful error handling with retry options
 
 ### EmailJS Configuration
-The contact form uses the following EmailJS configuration:
-- **Service ID**: `service_tuvayvw`
-- **Template ID**: `template_z88sk3o`
-- **Public Key**: `diBfuf0RzMElN0thw`
-
-### Template Variables
-The EmailJS template expects these variables:
-- `from_name`: Sender's name
-- `from_email`: Sender's email address
-- `message`: Message content
-- `to_name`: Recipient name (Yogeshwar Kumar)
+The contact form is configured with EmailJS for sending messages. The configuration details have been securely implemented in the code.
 
 ### Customizing EmailJS
 To modify the email template or service:
